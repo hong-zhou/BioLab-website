@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Welcome to LeBeau Lab</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" href="main.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <style>
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 30%;
+      margin: auto;
+  }
+ 
+   body {
+      position: relative; 
+  }
+  .affix {
+      top:0;
+      width: 100%;
+      z-index: 9999 !important;
+  }
+  .navbar {
+      margin-bottom: 0px;
+  }
+
+  .affix ~ .container-fluid {
+     position: relative;
+     top: 50px;
+  }
+   </style>
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+	<div class="container-fluid" style="background-image:url(antibody3.jpg); padding: 15px;height:100px;">
+	   
+	</div>
+
+	<nav class="navbar navbar-default" data-spy="affix" data-offset-top="197">
+	  <div class="container-fluid">
+		<div class="navbar-header">
+		  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>                        
+		  </button>
+		  <a class="navbar-brand" href="index.html">LeBeau Lab</a>
+		</div>
+		<div class="collapse navbar-collapse" id="myNavbar">
+		  <ul class="nav navbar-nav">
+			<li class="active"><a href="index.html">Home</a></li>
+			<li class="dropdown">
+			  <a class="dropdown-toggle" data-toggle="dropdown" href="research.html">Research <span class="caret"></span></a>
+			  <ul class="dropdown-menu">
+				<li><a href="antibodyengineering.html">Antibody Engineering</a></li>
+				<li><a href="molecularimaging.html">Molecular Imaging</a></li>
+				<li><a href="cancerresearch.html">Cancer Research</a></li>
+			  </ul>
+			</li>
+			<li><a href="people.html">People</a></li>
+			<li><a href="publication.html">Publication</a></li>
+			<li><a href="resource.html">Resource</a></li>
+			<li><a href="contact.html">Contact</a></li>
+		  </ul>
+		  <ul class="nav navbar-nav navbar-right">
+			<li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+			<li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+		  </ul>
+		</div>
+	  </div>
+	</nav>
+	
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12 col-md-12 col-lg-12" style="background-color:lavender;">
+			  <h2>Activate Carousel with JavaScript</h2>
+			  <div id="myCarousel" class="carousel slide">
+				<!-- Indicators -->
+				<ol class="carousel-indicators">
+				  <li class="item1 active"></li>
+				  <li class="item2"></li>
+				  <li class="item3"></li>
+				  <li class="item4"></li>
+				</ol>
+
+				<!-- Wrapper for slides -->
+				<div class="carousel-inner" role="listbox">
+
+				  <div class="item active">
+					<img src="1.jpg" alt="Chania" width="460px" height="345px">
+					<div class="carousel-caption">
+					  <h3>Western Blot</h3>
+					  <p>Protein WB image for dispaly purpose</p>
+					</div>
+				  </div>
+
+				  <div class="item">
+					<img src="2.jpg" alt="Chania" width="460px" height="345px">
+					<div class="carousel-caption">
+					  <h3>Western Blot2</h3>
+					  <p>Protein WB image for dispaly purpose.</p>
+					</div>
+				  </div>
+				
+				  <div class="item">
+					<img src="3.jpg" alt="Flower" width="460px" height="345px">
+					<div class="carousel-caption">
+					  <h3>Western Blot3</h3>
+					  <p>Protein WB image for dispaly purpose.</p>
+					</div>
+				  </div>
+
+				  <div class="item">
+					<img src="4.jpg" alt="Flower" width="460px" height="345px">
+					<div class="carousel-caption">
+					  <h3>WB image</h3>
+					  <p>Protein WB image for dispaly purpose.</p>
+					</div>
+				  </div>
+			  
+				</div>
+
+				<!-- Left and right controls -->
+				<a class="left carousel-control" href="#myCarousel" role="button">
+				  <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+				  <span class="sr-only">Previous</span>
+				</a>
+				<a class="right carousel-control" href="#myCarousel" role="button">
+				  <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+				  <span class="sr-only">Next</span>
+				</a>
+			  </div>
+		  </div>
+		</div>
+	  
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-6 col-md-4 col-lg-4" style="background-color:lavender;">
+				<h3><strong>Research Interests</strong></h3>
+				<p>Proteases play important roles in the regulation of biological processes in the human body. The enzymatic activity of proteases under normal conditions is tightly regulated by the presence of endogenous inhibitors, compartmental sequestration, and decreased gene expression. In cancer, proteases often become overexpressed or poorly regulated resulting in heightened peritumoral proteolytic activity. Membrane-bound and secreted proteases are known to promote tumorigenesis, cancer progression and metastasis. These cancer-associated proteases represent targets that cancer be exploited for diagnostic and therapeutic purposes. Our laboratory is centered on the development of novel agents to “see and treat” cancer by selectively targeting specific classes of cancer-associated proteases.</p>
+				<p>We are primarily focused on imaging and treating castration-resistant prostate cancer and triple-negative breast cancer by using small-molecule and antibody-based inhibitors of proteases. For imaging applications, our inhibitors can be labeled with fluorophores for near-infrared optical imaging or with radioisotopes for positron-emission tomography (PET) nuclear imaging. These probes allow for the non-invasive imaging of active proteases in xenograft mouse models of human cancer and genetically engineered mouse models that recreate tumorigenesis, angiogenesis and metastasis. Our inhibitors can be administered as therapeutics either alone or coupled to alpha or beta-emitting radioisotopes for radiotherapy. Additionally, we are also interested in developing novel human antibody phage display libraries from clinical samples for biomarker identification and personalized medicine.</p>
+			</div>
+		
+
+		
+			<div class="col-sm-6 col-md-8 col-lg-8">
+				 <div id="section1">    
+					<h1>Section 1</h1>
+					<p>Try to scroll this section and look at the navigation list while scrolling!</p>
+				</div>
+				<div id="section2"> 
+					<h1>Section 2</h1>
+					<p>Try to scroll this section and look at the navigation list while scrolling!</p>
+				</div>        
+				<div id="section3">         
+					<h1>Section 3</h1>
+					<p>Try to scroll this section and look at the navigation list while scrolling!</p>
+				</div>
+			</div>
+		</div>
+	 </div>
+
+	
+	<div class="container">
+		<footer>Copyright © 2015 LeBeau Lab</footer>
+	</div>
+	<div class="clearfix visible-lg"></div>
+	</div>
+	<script>
+	$(document).ready(function(){
+		// Activate Carousel
+		$("#myCarousel").carousel();
+		
+		// Enable Carousel Indicators
+		$(".item1").click(function(){
+			$("#myCarousel").carousel(0);
+		});
+		$(".item2").click(function(){
+			$("#myCarousel").carousel(1);
+		});
+		$(".item3").click(function(){
+			$("#myCarousel").carousel(2);
+		});
+		$(".item4").click(function(){
+			$("#myCarousel").carousel(3);
+		});
+		
+		// Enable Carousel Controls
+		$(".left").click(function(){
+			$("#myCarousel").carousel("prev");
+		});
+		$(".right").click(function(){
+			$("#myCarousel").carousel("next");
+		});
+	});
+	</script>
+</body>
+
+</html>
